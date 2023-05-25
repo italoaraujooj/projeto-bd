@@ -27,5 +27,6 @@
 -- INSERT INTO CLIENTE(CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
 -- VALUES(9, '85750624765', 'Joaquim', 'Felix', 'joaquimfelix@icloud.com', '01-26-2000', 'M', 'Rua Vereadora Maria Carolina da Costa Carmo', '119', 'Jardim América', 'Itaguaí', '23812750', '02-19-2023', 1);
 
-
+-- INSERT INTO CLIENTE(CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+-- VALUES(10, '64165702200', 'Lisbela', 'Santana', 'lisbelasantana1212@yahoo.com', '02-27-2003', 'F', 'Travessa Zona Ampliada', '124', 'Capoeira', 'Rio Branco', '69905002', '06-28-2022', 8);
 
