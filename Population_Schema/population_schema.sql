@@ -51,14 +51,39 @@ VALUES (4, 'Fast Entregas', 'fastentregas@email.com', '8756868124', 'fastentrega
 INSERT INTO TRANSPORTADORA(CODTRANS, NOME, EMAIL, TELEFONE, SITE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
 VALUES (5, 'Pediu Chegou', 'pediuchegou@email.com', '2133524545', 'pediuchegou.com', 'Rua Pediu Chegou', '5000', 'São Cristóvão', 'Criciúma', '88802502');
 
+-- Inserção de Fornecedores na tabela --
+
 INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
-VALUES ();
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '047697320001-00', 'ISIS LTDA.', 'www.saborisis.com.br', 'contato@saborisis.com.br', '(83)35222222', 'R. Manoel Celestino de Paula', '101', 'Alto do Cruzeiro', 'Sousa', '58806658');
+
 INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
-VALUES ();
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '556904580001-01', 'BOMBRIL', 'BOMBRIL.COM', 'CONTATO@BOMBRIL.COM', '(45)21540278', 'Rua Santa Quitéria', '1001', 'Santa Mônica', 'Camaragibe', '54767260');
+
 INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
-VALUES ();
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '564174760001-87', 'ALIMENTOS Gems', 'ALIMENTOSGems.COM', 'CONTATO@ALIMENTOS Gems.COM', '(96)22254327', 'Rua Vinte e Sete', '27', 'Recanto do Turu', 'São Luís', '65068888');
+
 INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
-VALUES ();
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '103911940001-57', 'Trilogy Laticínios', 'TrilogyLaticínios.COM', 'CONTATO@TrilogyLaticínios.COM', '(83)23153426', 'Rua Antônio Marinho', '88', 'Bodocongó', 'Campina Grande', '58430250');
+
+INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '445247010001-03', 'Leandro e Mateus Padaria Ltda', 'WWW.leandroemateuspadarialtda.com.br', 'fiscal@leandroemateuspadarialtda.com.br', '(83)25109571', 'Rua Lopes Trovão', '269', 'Mandacaru', 'João Pessoa', '58027080');
+
+INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '175296200001-15', 'Lúcia e Heloise Pizzaria Ltda', 'www.luciaeheloisepizzarialtda.com.br', 'faleconosco@luciaeheloisepizzarialtda.com.br', '(83)27027635', 'Rua das Peperônias', '343', 'Mangabeira', 'João Pessoa', '58059714');
+
+INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '891103820001-10', 'Sophia e Rodrigo Gráfica Ltda', 'www.sophiaerodrigograficaltda.com.br', 'cobranca@sophiaerodrigograficaltda.com.br', '(83)37766713', 'Rua Amazonas', '885', 'Popular', 'Santa Rita', '58301545');
+
+INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '783621320001-50', 'Felipe e Jorge Doces & Salgados Ltda', 'www.felipeejorgedocessalgadosltda.com.br', 'contato@felipeejorgedocessalgadosltda.com.br', '(83)37931507', 'Rua Frei Pascoal', '221', 'Malvinas', 'Campina Grande', '58432740');
+
+INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '496910540001-30', 'Valentina e Emily Marcenaria ME', 'www.valentinaeemilymarcenariame.com.br', 'marketing@valentinaeemilymarcenariame.com.br', '(83)37535083', 'Rua Frei Damião de Bozzano', '465', 'Renascer', 'Cabedelo', '58108284');
+
+INSERT INTO FORNECEDOR (CODFORN, CNPJ, NOME, HOME_PAGE, EMAIL, TELEFONE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
+VALUES (FORNECEDOR_SEQ.NEXTVAL, '695002690001-33', 'Sabrina e Emilly Comercio de Bebidas ME', 'www.sabrinaeemillycomerciodebebidasme.com.br', 'cobranca@sabrinaeemillycomerciodebebidasme.com.br', '(83)28658387', 'Rua Maria Batista Palitot', '397', 'Ipês', 'João Pessoa', '58028430');
+
+------------------------------------------------------------------
 
 INSERT INTO CATEGORIA(CODCAT, NOME)
 VALUES();
