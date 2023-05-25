@@ -16,7 +16,10 @@
 -- VALUES(5, '66551649157', 'João Victor', 'Abrantes', 'victorabrantes@icloud.com', '02-29-1996', 'M', 'Quadra EQNN 22/24 Bloco F', '07F', 'Ceilândia Sul', 'Brasília', '72220576', '08-27-2022', 1);
 
 -- INSERT INTO CLIENTE(CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
--- VALUES(6, '45752587174', 'Maria', 'Medeiros', 'maria123@gmail.com', '06-14-1980', 'M', 'Rua ED 7', '195', 'Setor Estrela Dalva', 'Goiânia', '74475744', '12-07-2021', 2);
+-- VALUES(6, '45752587174', 'Maria', 'Medeiros', 'maria123@gmail.com', '06-14-1980', 'F', 'Rua ED 7', '195', 'Setor Estrela Dalva', 'Goiânia', '74475744', '12-07-2021', 2);
 
 -- INSERT INTO CLIENTE(CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
 -- VALUES(7, '64166272306', 'Adolfo', 'Araújo', 'adolfoaraujo@hotmail.com', '09-03-1982', 'M', 'Rua Projetada 84', 'S/N', 'Conduru', 'Picos', '64608370', '01-05-2023', 1);
+
+INSERT INTO CLIENTE(CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES(8, '64166272306', 'Adolfo', 'Araújo', 'adolfoaraujo@hotmail.com', '09-03-1982', 'M', 'Rua Projetada 84', 'S/N', 'Conduru', 'Picos', '64608370', '01-05-2023', 1);
