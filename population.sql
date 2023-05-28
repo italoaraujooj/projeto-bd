@@ -1,17 +1,33 @@
-INSERT INTO CLIENTE (codcli, cpf, nome, sobrenome, email, data_nascimento, pontos, sexo, end_rua, end_num, end_bairro, end_cidade, end_cep, data_indicacao, cliente_indica)
-VALUES ();
-INSERT INTO CLIENTE (codcli, cpf, nome, sobrenome, email, data_nascimento, pontos, sexo, end_rua, end_num, end_bairro, end_cidade, end_cep, data_indicacao, cliente_indica)
-VALUES ();
-INSERT INTO CLIENTE (codcli, cpf, nome, sobrenome, email, data_nascimento, pontos, sexo, end_rua, end_num, end_bairro, end_cidade, end_cep, data_indicacao, cliente_indica)
-VALUES ();
-INSERT INTO CLIENTE (codcli, cpf, nome, sobrenome, email, data_nascimento, pontos, sexo, end_rua, end_num, end_bairro, end_cidade, end_cep, data_indicacao, cliente_indica)
-VALUES ();
-INSERT INTO CLIENTE (codcli, cpf, nome, sobrenome, email, data_nascimento, pontos, sexo, end_rua, end_num, end_bairro, end_cidade, end_cep, data_indicacao, cliente_indica)
-VALUES ();
-INSERT INTO CLIENTE (codcli, cpf, nome, sobrenome, email, data_nascimento, pontos, sexo, end_rua, end_num, end_bairro, end_cidade, end_cep, data_indicacao, cliente_indica)
-VALUES ();
-INSERT INTO CLIENTE (codcli, cpf, nome, sobrenome, email, data_nascimento, pontos, sexo, end_rua, end_num, end_bairro, end_cidade, end_cep, data_indicacao, cliente_indica)
-VALUES ();
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (1, '12345678901', 'John', 'Doe', 'johndoe@example.com', TO_DATE('1990-05-05', 'YYYY-MM-DD'), 0, 'Male', '123 Main Street', '10A', 'Downtown', 'Cityville', '12345', TO_DATE('2023-05-08', 'YYYY-MM-DD'), 2);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (2, '98765432109', 'Jane', 'Smith', 'janesmith@example.com', TO_DATE('1992-08-20', 'YYYY-MM-DD'), 0, 'Female', '456 Elm Street', '20B', 'Suburbia', 'Townsville', '54321', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 1);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (3, '11111111111', 'Michael', 'Johnson', 'michaeljohnson@example.com', TO_DATE('1985-09-12', 'YYYY-MM-DD'), 0, 'Male', '789 Oak Avenue', '15C', 'Suburbia', 'Townsville', '54321', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 1);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (4, '22222222222', 'Emily', 'Brown', 'emilybrown@example.com', TO_DATE('1993-06-18', 'YYYY-MM-DD'), 0, 'Female', '567 Pine Street', '7B', 'Downtown', 'Cityville', '12345', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 2);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (5, '33333333333', 'David', 'Wilson', 'davidwilson@example.com', TO_DATE('1988-12-30', 'YYYY-MM-DD'), 0, 'Male', '321 Maple Avenue', '3A', 'Suburbia', 'Townsville', '54321', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 3);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (6, '44444444444', 'Sarah', 'Taylor', 'sarahtaylor@example.com', TO_DATE('1995-03-25', 'YYYY-MM-DD'), 0, 'Female', '789 Oak Avenue', '15C', 'Downtown', 'Cityville', '12345', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 4);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (7, '55555555555', 'Daniel', 'Miller', 'danielmiller@example.com', TO_DATE('1991-11-09', 'YYYY-MM-DD'), 0, 'Male', '234 Elm Street', '8B', 'Suburbia', 'Townsville', '54321', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 5);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (8, '66666666666', 'Olivia', 'Anderson', 'oliviaanderson@example.com', TO_DATE('1994-07-17', 'YYYY-MM-DD'), 0, 'Female', '987 Oak Avenue', '25C', 'Downtown', 'Cityville', '12345', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 6);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (9, '77777777777', 'Andrew', 'Wilson', 'andrewwilson@example.com', TO_DATE('1987-02-14', 'YYYY-MM-DD'), 0, 'Male', '567 Pine Street', '7B', 'Suburbia', 'Townsville', '54321', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 7);
+
+INSERT INTO CLIENTE (CODCLI, CPF, NOME, SOBRENOME, EMAIL, DATA_NASCIMENTO, PONTOS, SEXO, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP, DATA_INDICACAO, CLIENTE_INDICA)
+VALUES (10, '88888888888', 'Sophia', 'Walker', 'sophiawalker@example.com', TO_DATE('1996-09-05', 'YYYY-MM-DD'), 0, 'Female', '890 Oak Avenue', '12C', 'Downtown', 'Cityville', '12345', TO_DATE('2023-05-28', 'YYYY-MM-DD'), 8);
+
 
 INSERT INTO TELEFONES_CLIENTE (cod_cli, numero)
 VALUES (1, '9222154516');
