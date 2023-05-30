@@ -54,7 +54,7 @@ VALUES (TRANSPORTADORA_SEQ.NEXTVAL, 'Full Entregas', 'fullentregas@email.com', '
 INSERT INTO TRANSPORTADORA(CODTRANS, NOME, EMAIL, TELEFONE, SITE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
 VALUES (TRANSPORTADORA_SEQ.NEXTVAL, 'Transportando com Amor', 'transporte.amor@email.com', '8426560895', 'transportandoamor.com', 'Rua Transportando com Amor', '2000', 'Parque Taubateguassu', 'Taubaté', '12071330');
 INSERT INTO TRANSPORTADORA(CODTRANS, NOME, EMAIL, TELEFONE, SITE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
-VALUES (TRANSPORTADORA_SEQ.NEXTVAL, 'Transporte Top', 'transportetop@email.com', '9234682154', 'transportetop.com', 'Rua Transporte Top', '3000', 'Cidade Gerardo Cristino', 'Sobral', '62051270');
+VALUES (TRANSPORTADORA_SEQ.NEXTVAL, 'Transporte Top', 'transportetop@email.com', '9234682154', 'transportetop.com', 'Rua Transporte Top', '3000', 'Cidade Gerardo Crist', 'Sobral', '62051270');
 INSERT INTO TRANSPORTADORA(CODTRANS, NOME, EMAIL, TELEFONE, SITE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
 VALUES (TRANSPORTADORA_SEQ.NEXTVAL, 'Fast Entregas', 'fastentregas@email.com', '8756868124', 'fastentregas.com', 'Rua Fast Entregas', '4000', 'Paciência', 'Rio de Janeiro', '23585670');
 INSERT INTO TRANSPORTADORA(CODTRANS, NOME, EMAIL, TELEFONE, SITE, END_RUA, END_NUM, END_BAIRRO, END_CIDADE, END_CEP)
